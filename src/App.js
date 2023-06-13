@@ -1,17 +1,12 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Accordion from 'react-bootstrap/Accordion';
-import Stack from 'react-bootstrap/Stack';
+import { Container, Row, Col, Accordion, Stack } from 'react-bootstrap';
 import './App.css';
 import ContactsForm from './Components/ContactsForm';
 import Contacts from './Components/Contacts';
 
 const App = () => {
-
   return (
-    <div className='to-do-app'>
+    <div className="to-do-app">
       <Container fluid>
         <Row>
           <Col>
@@ -26,17 +21,17 @@ const App = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-            </Stack></Col>
+            </Stack>
+          </Col>
         </Row>
         <div>
           <Stack gap={2} className="col-md-12 mx-auto">
-            <Contacts /> 
+            <Contacts />
           </Stack>
         </div>
       </Container>
     </div>
   );
-
-}
+};
 
 export default App;

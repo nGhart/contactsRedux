@@ -74,16 +74,15 @@ button {
   border: 2px solid #7e772e;
 }
 
-.todo-row:nth-child(4n+1) {
+.todo-row:nth-child(4n + 1) {
   background-color: #1b22b1;
-
 }
 
-.todo-row:nth-child(4n+2) {
+.todo-row:nth-child(4n + 2) {
   background-color: #296dcc;
 }
 
-.todo-row:nth-child(4n+3) {
+.todo-row:nth-child(4n + 3) {
   background-color: #5baedd;
 }
 
